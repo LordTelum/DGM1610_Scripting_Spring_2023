@@ -1,0 +1,24 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        int firstInt = 1, secondInt = 2;
+        char firstChar = 'a', secondChar = 'b';
+        bool firstBool = true, secondBool = false;
+        string firstString = "Hello", secondString = "World";
+        float firstFloat = 1.23f, secondDouble = (float)4.56;
+
+        Console.WriteLine(firstInt);
+        Console.WriteLine(secondInt);
+        Console.WriteLine(firstChar);
+        Console.WriteLine(secondChar);
+        Console.WriteLine(firstBool);
+        Console.WriteLine(secondBool);
+        Console.WriteLine(firstString);
+        Console.WriteLine(secondString);
+        Console.WriteLine(firstFloat);
+        Console.WriteLine(secondDouble);
+    }
+}
