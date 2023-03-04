@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4947237360432480162}
   m_Layer: 0
   m_Name: LazerBolt
-  m_TagString: Untagged
+  m_TagString: LazerBolt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4317609140437988235}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.878, z: -4.519}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 0.12839228, y: 0.43460387, z: 0.12839228}
   m_ConstrainProportionsScale: 0
   m_Children: []
