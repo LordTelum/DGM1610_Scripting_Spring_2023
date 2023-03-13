@@ -9,8 +9,15 @@ public class PlayerController : MonoBehaviour
     public float xRange;
 
     public Transform blaster;
-
     public GameObject lazerBolt;
+    private AudioSource blasterAudio;
+    public AudioClip lazerShoot;
+
+    void Start()
+    {
+        //Get AudioSource component
+        blasterAudio = GetComponent<AudioSource>();
+    }
 
 
 
@@ -38,6 +45,8 @@ public class PlayerController : MonoBehaviour
         //If spacebar is pressed fire lazerbolt
         if(Input.GetKeyDown(KeyCode.Space))
         {
+            //Play lazershoot audio
+            blasterAudio.PlayOneShot(lazerShoot, 1.0f);
             //Create Lazerbolt at the blaster transform position maintaining the objects rotation.
             Instantiate(lazerBolt, blaster.transform.position, lazerBolt.transform.rotation);
         }
